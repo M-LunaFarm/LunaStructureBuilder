@@ -1,0 +1,17 @@
+name: LunaStructureBuilder
+version: '${project.version}'
+main: kr.lunaf.lunastructurebuilder.LunaStructureBuilder
+api-version: 1.20
+softdepend: [WorldEdit]
+commands:
+  exportstructure:
+    description: Export Structure
+    permission: structurebuilder.export
+  buildstructure:
+    description: Build Structure
+    permission: structurebuilder.build
+permissions:
+  structurebuilder.export:
+    default: op
+  structurebuilder.build:
+    default: op
